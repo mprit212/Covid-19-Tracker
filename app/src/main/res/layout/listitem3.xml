@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="12dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:id="@+id/TVSTATENAME"
+        android:text="statename"
+        android:maxLength="13"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/TVTOTALCASE"
+        android:layout_marginLeft="5dp"
+        android:text="casetotoal"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/TVTOTALDEAD"
+        android:text="deadtotoal"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/TVRECOVER"
+        android:text="recover"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        />
+</LinearLayout>

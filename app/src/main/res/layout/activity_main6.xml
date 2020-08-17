@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main6Activity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:id="@+id/tvlastupdate2"
+        android:layout_margin="0dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textAlignment="textEnd"
+        android:gravity="end"
+        android:hint="Last update time"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="District"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="012345"
+            android:id="@+id/tvdistict"
+            android:textColor="@color/color_one"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="end"
+            android:textAlignment="textEnd"/>
+
+
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_two"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Total Case"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="012345"
+            android:id="@+id/tvdistotalcase"
+            android:textColor="@color/color_one"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="end"
+            android:textAlignment="textEnd"/>
+
+
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_two"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Active Case"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="012345"
+            android:id="@+id/tvdisActiveCase"
+            android:textColor="@color/color_one"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="end"
+            android:textAlignment="textEnd"/>
+
+
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_two"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Total Deads"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="012345"
+            android:id="@+id/tvdisdeads"
+            android:textColor="@color/color_one"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="end"
+            android:textAlignment="textEnd"/>
+
+
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_two"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Recovered"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="012345"
+            android:id="@+id/tvdisrecoverd"
+            android:textColor="@color/color_one"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="end"
+            android:textAlignment="textEnd"/>
+
+
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_two"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+
+</LinearLayout>
